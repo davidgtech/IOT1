@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.navbar .left {
+  flex: 4;
+}
+
+.navbar .right {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.navbar .right a.rightChild {
+  display: block;
+  color: blue;
+  border-bottom: 0px solid blue;
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+
+.navbar .right a.rightChild:hover {
+  border-bottom: 4px solid blue;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2.5px solid #dcdcdc;
+  padding-bottom: 20px;
+}
+
+.header img {
+  border-radius: 5px;
+}
+
+.header .above {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header .middle {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+.header .below {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header .below .subtitleBox {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header .below .subtitleBox h2 {
+  padding-bottom: 20px;
+}
+
+.client {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2.5px solid #dcdcdc;
+}
+
+.client h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.client .image {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testi {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.testi h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testi .boxes {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.testi .boxes .box {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  width: 47%;
+  justify-content: space-between;
+}
+
+.testi .boxes .box .above img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testi .boxes .box .middle {
+  margin-bottom: 15px;
+}
+
+.testi .boxes .box .below {
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.subscribe {
+  background: #ff1493;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.subscribe .above {
+  font-size: 25px;
+  color: white;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.subscribe .middle input {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.subscribe .below button {
+  background-color: #ff69b4;
+  color: white;
+  border: 1px solid pink;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscribe .below button:hover {
+  border: 1px solid black;
+}
+
+.footer {
+  display: flex;
+  background: #212523;
+  color: white;
+  justify-content: space-between;
+  padding: 40px 40px 40px 40px;
+  align-items: center;
+}
+
+.footer .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 130px;
+}
+
+.footer .left .above {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.footer .right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.footer .right .above {
+  margin-bottom: 10px;
+}
+
+.footer .right .above img {
+  margin-left: 20px;
+  cursor: pointer;
+}
